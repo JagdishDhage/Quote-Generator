@@ -88,7 +88,7 @@ button:active {
 .twitter-button:hover {
   background-color: #38a1f3; 
 }
-.fa-twitter{
+.t1{
   font-size: 1.5rem;
 }
 
@@ -113,4 +113,45 @@ button:active {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: transparent;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+ font-size: 1.2rem;
+  color: #000;
+}
+
+.footer-content p,
+.footer-content h6 {
+  margin: 0 ;
+}
+
+.social-links {
+  margin-left: 1rem; 
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1rem; 
+}
+.social-links a:last-child {
+  margin-right: 0; 
+}
+
+.social-links a:hover {
+  color: #38a1f3; 
 }
